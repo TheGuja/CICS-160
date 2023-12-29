@@ -1,0 +1,25 @@
+Question 1
+Synchonizer: Eric
+Liason: Shireen 
+Reflector: Jenny
+
+Question 2.2
+2.2.1
+yes
+2.2.2
+The print statement in Car.py does print, beacuse the details of the Dodge Dart is printed to the console, while electricCar1 was not assigned as a Dodge Dart.
+2.2.3
+In Python code, import statements allow the code from one file to be in another. Also, if code is not in a if __name__ == "__main__" block, it will also run the code, hence the print statement from Car.py was run.
+
+Question 2.3
+2.3.1
+no
+2.3.2
+yes
+2.3.3
+The effect of the "if __name__ == "__main__" block makes it so that the code inside that block runs only if the file has the name "__main__"
+2.3.4
+The value of __name__ when you execute a file is __main__, while the value of __name__ when you import a file is not __main__. When the file is executed, the code in the if __name__ == "__main" is excuted, while when it's being imported, the code is not being executed.
+
+Question 3.1
+The line that reads #super().__init__() contributes to this error, because the ElectricCar class is not inheriting the methods from class Car. As a result, the class ElectricCar does not have the method get_make_model(), which is causing the error.
